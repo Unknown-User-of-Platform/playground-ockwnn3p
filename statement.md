@@ -9,9 +9,3 @@ function drawSnakePart(snakePart)
   snakeboard_ctx.fillRect(snakePart.x, snakePart.y, 10, 10);  
   snakeboard_ctx.strokeRect(snakePart.x, snakePart.y, 10, 10);
 }
- 
-/*Function that prints the parts*/
-function drawSnake() 
-{  
-  snake.forEach(drawSnakePart);
-}
